@@ -30,7 +30,7 @@ export const Footer = () => {
                   <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">{section.title}</h4>
                   <ul>
                     {section.links.map((link)=>(
-                      <li className="mt-2 text-white font-montserrat text-base leading-normal hover: text-gray-400 cursor-pointer" key={link.name}><a >{link.name}</a></li>
+                      <li className="mt-2 font-montserrat text-white-400 text-base leading-normal hover:text-gray-400 cursor-pointer" key={link.name}><a >{link.name}</a></li>
                     ))}
                   </ul>
                 </div>
