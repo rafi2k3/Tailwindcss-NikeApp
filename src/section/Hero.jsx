@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import Button from '../compoents/button';
+
 import { arrowRight } from '../assets/icons';
 import { shoes, statistics } from '../constarn';
 import { bigShoe1, bigShoe2 } from '../assets/images';
 import ShoeCard from '../compoents/ShoeCard';
+import Button from '../compoents/Button';
 
 
 export const Hero = () => {
@@ -24,7 +25,7 @@ export const Hero = () => {
          shoes </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>Discover stylish Nike arrivals, quality <br /> 
         comfort, and innovation for your active life.</p>
-        <Button  label="Shop Now"
+        <Button label="Shop Now"
         iconURL={arrowRight}/>
         <div className='flex justify-start  iemts-start flex-wrap w-full mt-20 gap-16 '>
           {statistics.map((stat)=>(
